@@ -21,9 +21,6 @@ In this example, the two `print` statements are indented with four spaces, indic
 4. **Colon (:)**: In Python, a colon `:` is used to signal the start of an indented block. It's used in control structures like if statements, loops, and function definitions. For example:
 
 ```python
-def my_function():
-    print("This is part of the function")
-
 if condition:
     print("This is part of the if block")
 ```
