@@ -61,23 +61,6 @@ def greet(name):
 greet("Alice")
 ```
 
-### Class Definition Keywords
-
-Python includes keywords for defining classes, such as `class`, which is used to create custom data types.
-
-**Examples**:
-
-```python
-# Class definition
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-# Creating an instance of the class
-person1 = Person("Alice", 30)
-```
-
 ## Built-in Constants
 
 Python includes several built-in constants that represent fixed values with predefined meanings. These constants are used in various contexts and have specific roles in Python programming.
