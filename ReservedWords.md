@@ -140,5 +140,3 @@ data_type_list = type(my_list)  # 'data_type_list' is now <class 'list'>
 
 Python's reserved words, including keywords, constants, and built-in functions, are an integral part of the language. Understanding their roles and using them appropriately is crucial for writing clean and effective Python code.
 ```
-
-This expanded README file provides a detailed explanation of Python's reserved words, categorized into keywords, built-in constants, and built-in functions, with comprehensive examples for each category. It serves as a comprehensive reference for developers working with Python.
