@@ -122,4 +122,4 @@ For detailed information on Python's variable types and their usage, refer to th
 Feel free to expand and customize this README.md file as needed to suit your specific documentation needs.
 ```
 
-Remember that Python's flexibility allows for creating custom classes and objects, so the list of possible variable types can go beyond the built-in types mentioned in this README. Additionally, Python's standard library and third-party libraries provide even more data types and structures.
+Remember that Python's flexibility allows for creating custom classes and objects, so the list of possible variable types can go beyond the built-in types mentioned in this file. Additionally, Python's standard library and third-party libraries provide even more data types and structures.
