@@ -172,10 +172,10 @@ while condition:
 - `continue`: Skips the current iteration and moves to the next one.
 
 ## V. Loop Control Statements
-### `break` Statement
+## `break` Statement
 - Used to exit a loop prematurely when a certain condition is met.
 
-### `continue` Statement
+## `continue` Statement
 - Used to skip the current iteration and move to the next one within the loop.
 
 ## Examples:
@@ -261,20 +261,14 @@ while True:
 
 In this example, the loop continues until the user enters 'q'.
 
+### Practice Example 1: Infinite Loop with `while True`
 
-## VI. Tips and Best Practices
+Write a program that keeps on asking the user about their grade until they enter a negative grade. The program should be able to identify the minimum and maximum grades among all the entered grades.
+
+## V. Tips and Best Practices
 - Write clean and efficient loops.
 - Choose meaningful variable names.
 - Enhance code readability with comments.
 
-## IX. Homework Assignment (See canvas)
+## VI. Homework Assignment (See canvas)
 - Refer to Canvas for HW2. The second homework covers conditions as well as loops as the founding elements of programming in Python.
-
-## X. Conclusion
-- Thank the students for their participation and interest in the class.
-
----
-**Note:** Adapt the timing and content based on the class's needs and the students' skill level.
-```
-
-Copy and paste this Markdown content into a `.md` file to create a document that explains the concepts for teaching Python loops.
