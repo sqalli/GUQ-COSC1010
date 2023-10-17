@@ -94,7 +94,36 @@ arr = [64, 25, 12, 22, 11]
 selection_sort(arr)
 print("Sorted array:", arr)
 ```
-   
+3. Implement the Bubble Sort algorithm in Python. Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. Continue this process until the list is sorted. Test your implementation on a list of integers.
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+# Example usage:
+arr = [64, 34, 25, 12, 22, 11, 90]
+bubble_sort(arr)
+print("Sorted array:", arr)
+```python
+4. Implement the Insertion Sort algorithm in Python. Insertion Sort builds the final sorted array one item at a time, inserting each element into its correct position. Test your implementation on a list of strings.
+```python
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i - 1
+        while j >= 0 and key < arr[j]:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+
+# Example usage:
+arr = ["apple", "banana", "kiwi", "cherry", "date"]
+insertion_sort(arr)
+print("Sorted array:", arr)
+```   
 
 ## Conclusion
 
