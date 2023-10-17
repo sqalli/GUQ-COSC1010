@@ -107,7 +107,7 @@ def bubble_sort(arr):
 arr = [64, 34, 25, 12, 22, 11, 90]
 bubble_sort(arr)
 print("Sorted array:", arr)
-```python
+```
 4. Implement the Insertion Sort algorithm in Python. Insertion Sort builds the final sorted array one item at a time, inserting each element into its correct position. Test your implementation on a list of strings.
 ```python
 def insertion_sort(arr):
