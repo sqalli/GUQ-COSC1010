@@ -64,7 +64,7 @@ Tuples are commonly used for data that should not be changed, such as coordinate
 Now, let's practice working with lists and tuples:
 
 1. Write a Python function that takes a list of numbers as input and returns the sum of all the numbers in the list.
-```
+```python
 def calculate_sum(numbers):
     total = 0  # Initialize a variable to store the sum
 
@@ -80,7 +80,7 @@ print("The sum of the numbers is:", result)
 
 ```
 2. Implement the Selection Sort algorithm in Python. The algorithm works by repeatedly finding the minimum element from the unsorted part of the list and putting it at the beginning. Test your implementation on a list of integers.
-```
+```python
 def selection_sort(arr):
     for i in range(len(arr)):
         min_idx = i
